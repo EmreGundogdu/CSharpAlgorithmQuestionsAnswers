@@ -1,15 +1,35 @@
 ﻿//İki sayının toplamını veren uygulamayı yazalım
 #region 1. Çözüm
-int sayi1 = 10;
-int sayi2 = 20;
-int sonuc = sayi1 + sayi2;
-Console.WriteLine(sonuc);
+//int sayi1 = 10;
+//int sayi2 = 20;
+//int sonuc = sayi1 + sayi2;
+//Console.WriteLine(sonuc);
+
+//int sayi3 = 10, sayi4 = 20;
+//int sonuc2 = sayi3 + sayi4;
+//Console.WriteLine(sonuc2);
+
+//Console.WriteLine(sayi1 + sayi2);
 #endregion
 #region 2. Çözüm
-int sayi3 = 10, sayi4 = 20;
-int sonuc2 = sayi3 + sayi4;
-Console.WriteLine(sonuc2);
+//Console.WriteLine("Lütfen sayi1 değerini giriniz.");
+//int sayi1 = Convert.ToInt32(Console.ReadLine());
+//Console.WriteLine("Lütfen sayi2 değerini giriniz");
+//int sayi2 = int.Parse(Console.ReadLine());
+//Console.WriteLine(sayi1 + sayi2);
 #endregion
 #region 3. Çözüm
-Console.WriteLine(sayi1 + sayi2);
+try
+{
+    Console.WriteLine("Lütfen sayi1 değerini giriniz.");
+    int sayi1 = Convert.ToInt32(Console.ReadLine());
+    Console.WriteLine("Lütfen sayi2 değerini giriniz");
+    int sayi2 = int.Parse(Console.ReadLine());
+    Console.WriteLine(sayi1 + sayi2);
+}
+catch
+{
+    Console.WriteLine("Lütfen doğru bir sayı değeri giriniz");
+}
+
 #endregion
