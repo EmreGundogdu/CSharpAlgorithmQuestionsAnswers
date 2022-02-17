@@ -33,3 +33,12 @@
 //}
 
 #endregion
+//Kullanıcın girdiği iki sayının karelerinin toplamını veren uygulamayı yazalım
+#region 1. Çözüm
+Console.WriteLine("Lütfen birinci sayıyı giriniz");
+int sayi1 = int.Parse(Console.ReadLine());
+Console.WriteLine("Lütfen ikinci sayıyı giriniz");
+int sayi2 = int.Parse(Console.ReadLine());
+int sonuc = sayi1 * sayi1 + sayi2 * sayi2;
+Console.WriteLine(sonuc);
+#endregion
