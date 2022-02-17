@@ -43,12 +43,17 @@
 //Console.WriteLine(sonuc);
 #endregion
 #region 2. Çözüm
-Console.WriteLine("Lütfen birinci sayıyı giriniz");
-int sayi1 = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Lütfen ikinci sayıyı giriniz");
-int sayi2 = Convert.ToInt32(Console.ReadLine());
+//Console.WriteLine("Lütfen birinci sayıyı giriniz");
+//int sayi1 = Convert.ToInt32(Console.ReadLine());
+//Console.WriteLine("Lütfen ikinci sayıyı giriniz");
+//int sayi2 = Convert.ToInt32(Console.ReadLine());
 
 //Math.Pow(2, 2);    2nin 2. kuvveti
-double sonuc = Math.Pow(sayi1, 2) + Math.Pow(sayi2, 2);
-Console.WriteLine(sonuc);
+//double sonuc = Math.Pow(sayi1, 2) + Math.Pow(sayi2, 2);
+//Console.WriteLine(sonuc);
+#endregion
+#region 3. Çözüm
+Console.WriteLine("Lütfen birinci ve ikinci sayıları giriniz");
+//double sonuc = Math.Pow(int.Parse(Console.ReadLine()), 2) + Math.Pow(int.Parse(Console.ReadLine()), 2);
+Console.WriteLine(Math.Pow(int.Parse(Console.ReadLine()), 2) + Math.Pow(int.Parse(Console.ReadLine()), 2));
 #endregion
