@@ -35,10 +35,20 @@
 #endregion
 //Kullanıcın girdiği iki sayının karelerinin toplamını veren uygulamayı yazalım
 #region 1. Çözüm
+//Console.WriteLine("Lütfen birinci sayıyı giriniz");
+//int sayi1 = int.Parse(Console.ReadLine());
+//Console.WriteLine("Lütfen ikinci sayıyı giriniz");
+//int sayi2 = int.Parse(Console.ReadLine());
+//int sonuc = sayi1 * sayi1 + sayi2 * sayi2;
+//Console.WriteLine(sonuc);
+#endregion
+#region 2. Çözüm
 Console.WriteLine("Lütfen birinci sayıyı giriniz");
-int sayi1 = int.Parse(Console.ReadLine());
+int sayi1 = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Lütfen ikinci sayıyı giriniz");
-int sayi2 = int.Parse(Console.ReadLine());
-int sonuc = sayi1 * sayi1 + sayi2 * sayi2;
+int sayi2 = Convert.ToInt32(Console.ReadLine());
+
+//Math.Pow(2, 2);    2nin 2. kuvveti
+double sonuc = Math.Pow(sayi1, 2) + Math.Pow(sayi2, 2);
 Console.WriteLine(sonuc);
 #endregion
