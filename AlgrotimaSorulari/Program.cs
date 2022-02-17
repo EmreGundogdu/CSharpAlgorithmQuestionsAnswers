@@ -68,13 +68,23 @@
 //Console.WriteLine(toplam);
 #endregion
 #region 2. Çözüm
-int sayac = 1;
+//int sayac = 1;
+//double toplam = 0;
+//while (sayac <= 10)
+//{
+//    toplam += Math.Pow(sayac, 3);
+//    //if (sayac == 10)
+//    //    break;
+//    sayac++;
+//}
+#endregion
+#region 3. Çözüm
 double toplam = 0;
-while (sayac <= 10)
+int sayac = 1;
+do
 {
     toplam += Math.Pow(sayac, 3);
-    //if (sayac == 10)
-    //    break;
+    //if (sayac == 10) break;
     sayac++;
-}
+} while (sayac <= 10);
 #endregion
