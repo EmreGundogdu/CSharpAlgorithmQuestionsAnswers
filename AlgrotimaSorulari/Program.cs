@@ -53,7 +53,17 @@
 //Console.WriteLine(sonuc);
 #endregion
 #region 3. Çözüm
-Console.WriteLine("Lütfen birinci ve ikinci sayıları giriniz");
-//double sonuc = Math.Pow(int.Parse(Console.ReadLine()), 2) + Math.Pow(int.Parse(Console.ReadLine()), 2);
-Console.WriteLine(Math.Pow(int.Parse(Console.ReadLine()), 2) + Math.Pow(int.Parse(Console.ReadLine()), 2));
+//Console.WriteLine("Lütfen birinci ve ikinci sayıları giriniz");
+////double sonuc = Math.Pow(int.Parse(Console.ReadLine()), 2) + Math.Pow(int.Parse(Console.ReadLine()), 2);
+//Console.WriteLine(Math.Pow(int.Parse(Console.ReadLine()), 2) + Math.Pow(int.Parse(Console.ReadLine()), 2));
+#endregion
+//1 'den 10'a kadar olan sayıların kütlerinin toplamını bulan uygulamayı yazalım
+#region 1. Çözüm
+//double toplam = 0;
+//for (int i = 1; i <= 10; i++)
+//{
+//    //toplam += i * i * i;
+//    toplam += Math.Pow(i, 3);
+//}
+//Console.WriteLine(toplam);
 #endregion
