@@ -73,8 +73,8 @@ double toplam = 0;
 while (sayac <= 10)
 {
     toplam += Math.Pow(sayac, 3);
-    sayac++;
     //if (sayac == 10)
     //    break;
+    sayac++;
 }
 #endregion
