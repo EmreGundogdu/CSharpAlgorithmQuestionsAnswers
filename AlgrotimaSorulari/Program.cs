@@ -79,12 +79,27 @@
 //}
 #endregion
 #region 3. Çözüm
-double toplam = 0;
-int sayac = 1;
-do
+//double toplam = 0;
+//int sayac = 1;
+//do
+//{
+//    toplam += Math.Pow(sayac, 3);
+//    //if (sayac == 10) break;
+//    sayac++;
+//} while (sayac <= 10);
+#endregion
+#region 4. Çözüm
+int sayac = 10;
+double toplamSonuc = 0;
+string sonuc = "";
+while (sayac <= 10)
 {
-    toplam += Math.Pow(sayac, 3);
-    //if (sayac == 10) break;
+    toplamSonuc += Math.Pow(sayac, 3);
+    if (sayac != 10)
+        sonuc += $"{sayac} küp'ü + ";
+    else
+        sonuc += $"{sayac} küp'ü + {toplamSonuc}";
     sayac++;
-} while (sayac <= 10);
+}
+Console.WriteLine(sonuc);
 #endregion
