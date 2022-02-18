@@ -325,13 +325,36 @@
 #endregion
 //Girilen poizitif sayının kaç basamaklı olduğunu söyleyen uygulamayı yazalım
 #region 1. Çözüm
-Console.WriteLine("Lütfen basamak sayısını öğrenmek istediğiniz sayıyı giriniz");
-float sayi = float.Parse(Console.ReadLine());
-int sayac = 0;
-for (; sayi >= 10;)
-{
-    sayi /= 10;
-}
-sayac++;
-Console.WriteLine($"{sayi} sayısının basamak değeri {sayac}");
+//Console.WriteLine("Lütfen basamak sayısını öğrenmek istediğiniz sayıyı giriniz");
+//float sayi = float.Parse(Console.ReadLine());
+//int sayac = 0;
+//for (; sayi >= 10;)
+//{
+//    sayi /= 10;
+//}
+//sayac++;
+//Console.WriteLine($"{sayi} sayısının basamak değeri {sayac}");
+#endregion
+#region 2. Çözüm
+Console.WriteLine("Lütfen basamak sayısını öğrenmek istediğiniz sayıyı giriniz.");
+int sayi = int.Parse(Console.ReadLine());
+//int _i = 0;
+//for (int i = 0; ;)
+//{
+//    sayi /= 10;
+//    i++;
+//    _i = i;
+//    if (sayi < 10) break;
+//}
+
+//int sonuc = 0;
+//for (; ; )
+//{
+//    sayi /= 10;
+//    sonuc++;
+//    if (sayi < 10)
+//        break;
+//}
+//sonuc++;
+//Console.WriteLine($"{sayi} sayısını {sonuc} basamaklıdır");
 #endregion
