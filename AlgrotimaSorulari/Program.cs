@@ -427,18 +427,23 @@ Console.WriteLine("Lütfen üç basamaklı bir sayı giriniz");
 int sayi = int.Parse(Console.ReadLine());
 //Console.WriteLine(Basamak(sayi));
 //bool durum = Basamak(sayi);
+int _sayi = sayi;
 if (Basamak(sayi))
 {
-    int _sayi = sayi;
     double kupToplam = 0;
     while (true)
     {
         int basamak = _sayi % 10;
         _sayi /= 10;
         kupToplam += Math.Pow(basamak, 3);
-        if (_sayi < 10) break;
+        if (_sayi < 10)
+        {
+            basamak = _sayi % 10;
+            kupToplam += Math.Pow(basamak, 3);
+            break;
+        }
     }
-    if(kupToplam==sayi)
+    if (kupToplam == sayi)
         Console.WriteLine("Eşittir");
     else
         Console.WriteLine("Eşit Değildir");
@@ -455,8 +460,7 @@ bool Basamak(int sayi)
     {
         basamakSayisi++;
         sayi /= 10;
-        if (sayi < 10)
-            break;
+        if (sayi < 10) break;
     }
     //if (basamakSayisi == 3)
     //    return true;
