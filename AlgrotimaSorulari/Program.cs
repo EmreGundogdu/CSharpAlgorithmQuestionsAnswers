@@ -387,3 +387,18 @@
 //}
 //Console.WriteLine($"{_sayi} sayısı {sonuc} basamaklıdır");
 #endregion
+#region 5. çözüm
+Console.WriteLine("Lütfen basamak sayısını öğrenmek istediğiniz sayıyı giriniz");
+int sayi = int.Parse(Console.ReadLine());
+int sonuc = 0;
+int _sayi = sayi;
+do
+{
+    sayi /= 10;
+    sonuc++;
+    //if (sayi < 10)
+    //    break;
+} while (sayi >= 10);
+//sonuc++;
+Console.WriteLine($"{_sayi} sayısının {++sonuc} basamaklıdır");
+#endregion
