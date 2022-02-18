@@ -241,3 +241,23 @@
 //    return sayi1;
 //}
 #endregion
+//Pozitif sayılarda bölme işlemini çıkarma kullanarak yapan uygulamayı yazalım
+#region 1. Çözüm
+Console.WriteLine("Lütfen bölmek istediğiniz sayıyı giriniz");
+int sayi1 = int.Parse(Console.ReadLine());
+Console.WriteLine("Lütfen böleceğiniz sayıyı giriniz");
+int sayi2 = int.Parse(Console.ReadLine());
+int _sayi1 = sayi1;
+int sonuc = 0, kalan = 0;
+for (int i = 0; i < _sayi1; i++)
+{
+    sayi1 -= sayi2;
+    sonuc++;
+    if (sayi1 < sayi2)
+    {
+        kalan = sayi1;
+        break;
+    }
+}
+Console.WriteLine($"{_sayi1} / {sayi2} = {sonuc} | kalan = {kalan}");
+#endregion
