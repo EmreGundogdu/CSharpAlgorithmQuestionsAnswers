@@ -138,3 +138,14 @@
 //}
 //Console.WriteLine(sonuc);
 #endregion
+#region 2. Çözüm
+//Console.WriteLine("Lütfen bir sayı girin");
+//int sayi = int.Parse(Console.ReadLine());
+//int sonuc = 1;
+//while (sayi > 0)
+//{
+//    sonuc *= sayi;
+//    sayi--;
+//}
+//Console.WriteLine(sonuc);
+#endregion
