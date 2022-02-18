@@ -214,3 +214,30 @@
 //}
 //Console.WriteLine($"{sayi1} X {sayi2} = {sonuc}");
 #endregion
+#region 3. Çözüm
+//Console.WriteLine("Lütfen birinci sayıyı giriniz");
+//int sayi1 = int.Parse(Console.ReadLine());
+//Console.WriteLine("Lütfen ikinci sayıyı giriniz");
+//int sayi2 = int.Parse(Console.ReadLine());
+//int sonuc = 0;
+//int sayac = sayi2;
+//do
+//{
+//    sonuc += sayi1;
+//    sayac--;
+//} while (sayac > 0);
+//Console.WriteLine($"{sayi1} X {sayi2} = {sonuc}");
+#endregion
+#region 4. Çözüm
+//Console.WriteLine("Lütfen birinci sayıyı giriniz");
+//int sayi1 = Convert.ToInt32(Console.ReadLine());
+//Console.WriteLine("Lütfen ikinci sayıyı giriniz");
+//int sayi2 = Convert.ToInt32(Console.ReadLine());
+//Console.WriteLine(Topla(sayi1, sayi2));
+//int Topla(int sayi1, int sayi2)
+//{
+//    if (sayi2 > 1)
+//        return sayi2 + Topla(sayi1, --sayi2);
+//    return sayi1;
+//}
+#endregion
