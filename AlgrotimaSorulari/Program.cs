@@ -89,17 +89,27 @@
 //} while (sayac <= 10);
 #endregion
 #region 4. Çözüm
-int sayac = 10;
-double toplamSonuc = 0;
-string sonuc = "";
-while (sayac <= 10)
-{
-    toplamSonuc += Math.Pow(sayac, 3);
-    if (sayac != 10)
-        sonuc += $"{sayac} küp'ü + ";
-    else
-        sonuc += $"{sayac} küp'ü + {toplamSonuc}";
-    sayac++;
-}
-Console.WriteLine(sonuc);
+//int sayac = 10;
+//double toplamSonuc = 0;
+//string sonuc = "";
+//while (sayac <= 10)
+//{
+//    toplamSonuc += Math.Pow(sayac, 3);
+//    if (sayac != 10)
+//        sonuc += $"{sayac} küp'ü + ";
+//    else
+//        sonuc += $"{sayac} küp'ü + {toplamSonuc}";
+//    sayac++;
+//}
+//Console.WriteLine(sonuc);
+#endregion
+//Doğum tarihi girilen kisinin yaşını hesaplayan uygulamayı yazalım
+#region 1. Çözüm
+//Console.WriteLine("Lütfen doğum tarihini yazınız");
+//DateTime dogumTarihi = Convert.ToDateTime(Console.ReadLine());
+//TimeSpan sonuc = DateTime.Now - dogumTarihi;
+//Console.WriteLine(sonuc.Days / 365);
+#endregion
+#region 2. Çözüm
+
 #endregion
