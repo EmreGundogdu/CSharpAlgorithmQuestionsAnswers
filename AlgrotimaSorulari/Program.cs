@@ -348,6 +348,7 @@ int sayi = int.Parse(Console.ReadLine());
 //}
 
 //int sonuc = 0;
+//int _sayi = sayi;
 //for (; ; )
 //{
 //    sayi /= 10;
@@ -356,5 +357,5 @@ int sayi = int.Parse(Console.ReadLine());
 //        break;
 //}
 //sonuc++;
-//Console.WriteLine($"{sayi} sayısını {sonuc} basamaklıdır");
+//Console.WriteLine($"{_sayi} sayısını {sonuc} basamaklıdır");
 #endregion
