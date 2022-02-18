@@ -421,3 +421,46 @@
 //int sayi = int.Parse(Console.ReadLine());
 //Console.WriteLine($"{sayi} sayısı {sayi.ToString().Length}");
 #endregion
+//Girilen 3 basamaklı bir sayının basamaklarının kütleri toplamı sayının kendine eşit olup olmadığını bulan uygulamayı yazalım
+#region 1. Çözüm
+Console.WriteLine("Lütfen üç basamaklı bir sayı giriniz");
+int sayi = int.Parse(Console.ReadLine());
+//Console.WriteLine(Basamak(sayi));
+//bool durum = Basamak(sayi);
+if (Basamak(sayi))
+{
+    int _sayi = sayi;
+    double kupToplam = 0;
+    while (true)
+    {
+        int basamak = _sayi % 10;
+        _sayi /= 10;
+        kupToplam += Math.Pow(basamak, 3);
+        if (_sayi < 10) break;
+    }
+    if(kupToplam==sayi)
+        Console.WriteLine("Eşittir");
+    else
+        Console.WriteLine("Eşit Değildir");
+}
+else
+{
+    Console.WriteLine("Lütfen sade ve sadece 3 basamaklı bir sayı giriniz");
+}
+bool Basamak(int sayi)
+{
+    //while (sayi>=10)
+    int basamakSayisi = 1;
+    while (true)
+    {
+        basamakSayisi++;
+        sayi /= 10;
+        if (sayi < 10)
+            break;
+    }
+    //if (basamakSayisi == 3)
+    //    return true;
+    //return false;
+    return basamakSayisi == 3 ? true : false;
+}
+#endregion
