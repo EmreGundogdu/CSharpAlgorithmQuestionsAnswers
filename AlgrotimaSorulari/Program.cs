@@ -120,10 +120,21 @@
 //Console.WriteLine(yas);
 #endregion
 #region 3. Çözüm
-Console.WriteLine("Lütfen doğum tarihi giriniz");
-DateTime dogumTarihi = DateTime.Parse(Console.ReadLine());
-int gun = (DateTime.Now - dogumTarihi).Days;
-int yas = gun / 365;
-int kalan = gun % 365;
-Console.WriteLine($"Yaş : {yas} | {yas + 1} yaşınıza kalan gün sayısı : {365 + (yas * 1 / 4) - kalan}");
+//Console.WriteLine("Lütfen doğum tarihi giriniz");
+//DateTime dogumTarihi = DateTime.Parse(Console.ReadLine());
+//int gun = (DateTime.Now - dogumTarihi).Days;
+//int yas = gun / 365;
+//int kalan = gun % 365;
+//Console.WriteLine($"Yaş : {yas} | {yas + 1} yaşınıza kalan gün sayısı : {365 + (yas * 1 / 4) - kalan}");
+#endregion
+//Girilen sayının faktöriyelini hesaplayan uygulamayı yazalım
+#region 1. Çözüm
+//Console.WriteLine("Lütfen bir sayı girin");
+//int deger = int.Parse(Console.ReadLine());
+//int sonuc = 1;
+//for (int i = deger; i > 0; i--)
+//{
+//    sonuc *= i;
+//}
+//Console.WriteLine(sonuc);
 #endregion
