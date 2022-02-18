@@ -111,5 +111,19 @@
 //Console.WriteLine(sonuc.Days / 365);
 #endregion
 #region 2. Çözüm
-
+//Console.WriteLine("Lütfen doğum tarihini girin");
+//DateTime dogumTarihi = DateTime.Parse(Console.ReadLine());
+//DateTime bugun = DateTime.Now;
+//int yas = bugun.Year - dogumTarihi.Year;
+//if (dogumTarihi > bugun.AddYears(-yas))
+//    yas--;
+//Console.WriteLine(yas);
+#endregion
+#region 3. Çözüm
+Console.WriteLine("Lütfen doğum tarihi giriniz");
+DateTime dogumTarihi = DateTime.Parse(Console.ReadLine());
+int gun = (DateTime.Now - dogumTarihi).Days;
+int yas = gun / 365;
+int kalan = gun % 365;
+Console.WriteLine($"Yaş : {yas} | {yas + 1} yaşınıza kalan gün sayısı : {365 + (yas * 1 / 4) - kalan}");
 #endregion
