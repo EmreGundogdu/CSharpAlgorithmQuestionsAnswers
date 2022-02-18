@@ -156,6 +156,7 @@ int sonuc = 1;
 do
 {
     sonuc *= sayi;
-    sayi--; 
-} while (sayi > 0);
+    sayi--;
+    if (sayi == 0) break;
+} while (true);
 #endregion
