@@ -323,3 +323,15 @@
 //    return sayi1;
 //}
 #endregion
+//Girilen poizitif sayının kaç basamaklı olduğunu söyleyen uygulamayı yazalım
+#region 1. Çözüm
+Console.WriteLine("Lütfen basamak sayısını öğrenmek istediğiniz sayıyı giriniz");
+float sayi = float.Parse(Console.ReadLine());
+int sayac = 0;
+for (; sayi >= 10;)
+{
+    sayi /= 10;
+}
+sayac++;
+Console.WriteLine($"{sayi} sayısının basamak değeri {sayac}");
+#endregion
