@@ -150,13 +150,40 @@
 //Console.WriteLine(sonuc);
 #endregion
 #region 3. Çözüm
-Console.WriteLine("Lütfen bir sayı giriniz");
-int sayi = Convert.ToInt32(Console.ReadLine());
-int sonuc = 1;
-do
-{
-    sonuc *= sayi;
-    sayi--;
-    if (sayi == 0) break;
-} while (true);
+//Console.WriteLine("Lütfen bir sayı giriniz");
+//int sayi = Convert.ToInt32(Console.ReadLine());
+//int sonuc = 1;
+//do
+//{
+//    sonuc *= sayi;
+//    sayi--;
+//    if (sayi == 0) break;
+//} while (true);
+#endregion
+#region 4. Çözüm
+//Console.WriteLine("Lütfen bir syı giriniz");
+//int sayi = Convert.ToInt32(Console.ReadLine());
+//int sonuc = 1;
+//string _sonuc = "";
+//while (sayi > 0)
+//{
+//    sonuc *= sayi;
+//    if (sayi != 1)
+//        _sonuc += $"{sayi} X";
+//    else
+//        _sonuc += $"{sayi} =  {sonuc}";
+//    sayi--;
+//}
+//Console.WriteLine(_sonuc);
+#endregion
+#region 5. Çözüm
+//int Faktoriyel(int sayi)
+//{
+//    if (sayi > 1)
+//        return sayi * Faktoriyel(--sayi);
+//    return sayi;
+//}
+//Console.WriteLine("Lütfen bir sayı giriniz");
+//int sayi = int.Parse(Console.ReadLine());
+//Console.WriteLine(Faktoriyel(sayi));
 #endregion
