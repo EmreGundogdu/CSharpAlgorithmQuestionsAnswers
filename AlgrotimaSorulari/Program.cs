@@ -284,21 +284,42 @@
 //Console.WriteLine($"{_sayi1} / {sayi2} = {sonuc} |Kalan = {kalan}");
 #endregion
 #region 3. Çözüm
-Console.WriteLine("Lütfen bölünecek sayıyı girin");
-int s1 = int.Parse(Console.ReadLine());
-Console.WriteLine("Lütfen bölen sayıyı girin");
-int s2 = int.Parse(Console.ReadLine());
-int sonuc = 0, kalan = 0;
-int _s1 = s1;
-do
-{
-    s1 -= s2;
-    sonuc++;
-    if (s1 < s2)
-    {
-        kalan = s1;
-        break;
-    };
-} while (true);
-Console.WriteLine($"{_s1} / {s2} = {sonuc} |Kalan = {kalan}");
+//Console.WriteLine("Lütfen bölünecek sayıyı girin");
+//int s1 = int.Parse(Console.ReadLine());
+//Console.WriteLine("Lütfen bölen sayıyı girin");
+//int s2 = int.Parse(Console.ReadLine());
+//int sonuc = 0, kalan = 0;
+//int _s1 = s1;
+//do
+//{
+//    s1 -= s2;
+//    sonuc++;
+//    if (s1 < s2)
+//    {
+//        kalan = s1;
+//        break;
+//    };
+//} while (true);
+//Console.WriteLine($"{_s1} / {s2} = {sonuc} |Kalan = {kalan}");
+#endregion
+#region 4. Çözüm
+//Console.WriteLine("Lütfen bölünecek sayıyı giriniz");
+//int s1 = Convert.ToInt32(Console.ReadLine());
+//Console.WriteLine("Lütfen bölen sayıyı giriniz");
+//int s2 = Convert.ToInt32(Console.ReadLine());
+//int kalan = Kalan(s1, s2);
+//int Bol(int sayi1, int sayi2)
+//{
+//    sayi1 -= sayi2;
+//    if (sayi1 >= sayi2)
+//        return 1 + Bol(sayi1, sayi2);
+//    return 1;
+//}
+//int Kalan(int sayi1, int sayi2)
+//{
+//    sayi1 -= sayi2;
+//    if (sayi1 >= sayi2)
+//        return Kalan(sayi1, sayi2);
+//    return sayi1;
+//}
 #endregion
