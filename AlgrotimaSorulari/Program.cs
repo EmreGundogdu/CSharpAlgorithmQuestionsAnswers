@@ -243,21 +243,60 @@
 #endregion
 //Pozitif sayılarda bölme işlemini çıkarma kullanarak yapan uygulamayı yazalım
 #region 1. Çözüm
-Console.WriteLine("Lütfen bölmek istediğiniz sayıyı giriniz");
-int sayi1 = int.Parse(Console.ReadLine());
-Console.WriteLine("Lütfen böleceğiniz sayıyı giriniz");
-int sayi2 = int.Parse(Console.ReadLine());
-int _sayi1 = sayi1;
+//Console.WriteLine("Lütfen bölmek istediğiniz sayıyı giriniz");
+//int sayi1 = int.Parse(Console.ReadLine());
+//Console.WriteLine("Lütfen böleceğiniz sayıyı giriniz");
+//int sayi2 = int.Parse(Console.ReadLine());
+//int _sayi1 = sayi1;
+//int sonuc = 0, kalan = 0;
+//for (int i = 0; i < _sayi1; i++)
+//{
+//    sayi1 -= sayi2;
+//    sonuc++;
+//    if (sayi1 < sayi2)
+//    {
+//        kalan = sayi1;
+//        break;
+//    }
+//}
+//Console.WriteLine($"{_sayi1} / {sayi2} = {sonuc} | kalan = {kalan}");
+#endregion
+#region 2. Çözüm
+//Console.WriteLine("Lütfen bölünen sayıyı giriniz");
+//int sayi1 = int.Parse(Console.ReadLine());
+//Console.WriteLine("Lütfen bölüm değerini giriniz");
+//int sayi2 = int.Parse(Console.ReadLine());
+//int sonuc = 0;
+//int sayac = sayi1;
+//int _sayi1 = sayi1;
+//int kalan = 0;
+//while (true)
+//{
+//    sayi1 -= sayi2;
+//    sonuc++;
+//    if (sayi1 < sayi2)
+//    {
+//        kalan = sayi1;
+//        break;
+//    }
+//    //sayac--;
+//}
+//Console.WriteLine($"{_sayi1} / {sayi2} = {sonuc} |Kalan = {kalan}");
+#endregion
+#region 3. Çözüm
+Console.WriteLine("Lütfen bölünecek sayıyı girin");
+int s1 = int.Parse(Console.ReadLine());
+Console.WriteLine("Lütfen bölen sayıyı girin");
+int s2 = int.Parse(Console.ReadLine());
 int sonuc = 0, kalan = 0;
-for (int i = 0; i < _sayi1; i++)
+do
 {
-    sayi1 -= sayi2;
+    s1 -= s2;
     sonuc++;
-    if (sayi1 < sayi2)
+    if (s1 < s2)
     {
-        kalan = sayi1;
+        kalan = s1;
         break;
-    }
-}
-Console.WriteLine($"{_sayi1} / {sayi2} = {sonuc} | kalan = {kalan}");
+    };
+} while (true);
 #endregion
