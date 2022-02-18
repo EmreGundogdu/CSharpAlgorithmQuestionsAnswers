@@ -289,6 +289,7 @@ int s1 = int.Parse(Console.ReadLine());
 Console.WriteLine("Lütfen bölen sayıyı girin");
 int s2 = int.Parse(Console.ReadLine());
 int sonuc = 0, kalan = 0;
+int _s1 = s1;
 do
 {
     s1 -= s2;
@@ -299,4 +300,5 @@ do
         break;
     };
 } while (true);
+Console.WriteLine($"{_s1} / {s2} = {sonuc} |Kalan = {kalan}");
 #endregion
