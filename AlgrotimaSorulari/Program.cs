@@ -413,10 +413,11 @@
 //    sayi /= 10;
 //    if (sayi >= 10)
 //        return 1 + BasamakSayisi(sayi);
-//    return 1;
+//    return 2; ->tam basamak sayısını döndürmüş olur 2 yazmak bunu sağladı 
 //}
 #endregion
 #region 7. Çözüm
-Console.WriteLine("Lütfen basamak sayısını öğrenmek istediğiniz sayıyı giriniz");
-int sayi = int.Parse(Console.ReadLine());
+//Console.WriteLine("Lütfen basamak sayısını öğrenmek istediğiniz sayıyı giriniz");
+//int sayi = int.Parse(Console.ReadLine());
+//Console.WriteLine($"{sayi} sayısı {sayi.ToString().Length}");
 #endregion
