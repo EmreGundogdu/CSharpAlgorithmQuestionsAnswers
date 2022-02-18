@@ -149,3 +149,13 @@
 //}
 //Console.WriteLine(sonuc);
 #endregion
+#region 3. Çözüm
+Console.WriteLine("Lütfen bir sayı giriniz");
+int sayi = Convert.ToInt32(Console.ReadLine());
+int sonuc = 1;
+do
+{
+    sonuc *= sayi;
+    sayi--; 
+} while (sayi > 0);
+#endregion
