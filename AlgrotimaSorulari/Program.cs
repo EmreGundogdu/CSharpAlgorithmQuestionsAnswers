@@ -336,8 +336,8 @@
 //Console.WriteLine($"{sayi} sayısının basamak değeri {sayac}");
 #endregion
 #region 2. Çözüm
-Console.WriteLine("Lütfen basamak sayısını öğrenmek istediğiniz sayıyı giriniz.");
-int sayi = int.Parse(Console.ReadLine());
+//Console.WriteLine("Lütfen basamak sayısını öğrenmek istediğiniz sayıyı giriniz.");
+//int sayi = int.Parse(Console.ReadLine());
 //int _i = 0;
 //for (int i = 0; ;)
 //{
@@ -358,4 +358,32 @@ int sayi = int.Parse(Console.ReadLine());
 //}
 //sonuc++;
 //Console.WriteLine($"{_sayi} sayısını {sonuc} basamaklıdır");
+#endregion
+#region 3. Çözüm
+//Console.WriteLine("Lütfen basamak sayısını öğrenmek istediğiniz sayıyı giriniz");
+//int sayi = int.Parse(Console.ReadLine());
+//int sonuc = 1;
+//int _sayi = sayi;
+//while (true)
+//{
+//    sayi /= 10;
+//    sonuc++;
+//    if (sayi < 10)
+//        break;
+//}
+//Console.WriteLine($"{_sayi} sayısı {sonuc} basamaklıdır");
+#endregion
+#region 4. Çözüm
+//Console.WriteLine("Lütfen basamak sayısını öğrenmek istediğiniz sayıyı giriniz");
+//int sayi = int.Parse(Console.ReadLine());
+//int sonuc = 1;
+//int _sayi = sayi;
+//while (sayi>=10)
+//{
+//    sayi /= 10;
+//    sonuc++;
+//    //if (sayi < 10)
+//    //    break;
+//}
+//Console.WriteLine($"{_sayi} sayısı {sonuc} basamaklıdır");
 #endregion
